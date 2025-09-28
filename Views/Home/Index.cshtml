@@ -1,0 +1,39 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<WebApplication3.Models.User>
+<!DOCTYPE html>
+@{
+    ViewBag.Title = "Index";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
+ 
+<h2>Список пользователей</h2>
+<table class="table">
+     <tr><th>Имя</th><th>Возраст</th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.FirstName</td>
+        </tr>
+    }
+</table>
+
+<div class="main">
+    <h3 class="ll">Поиск врача</h3>
+    <form asp-action="Search" method="get">
+        <input type="text" name="search" placeholder="Введите имя или специальность" class="search" required/>
+        <input type="submit" value="Найти" class="button"/>
+    </form>
+</div>
+
+
+<div>
+    <button onclick="location.href='@Url.Action("Autorisation", "Home")'">Авторизация</button>
+    <button onclick="location.href='@Url.Action("step1", "Register")'">Регистрация</button>
+    <button onclick="location.href='@Url.Action("Token", "Home")'">Токен</button>
+</div>
+
+

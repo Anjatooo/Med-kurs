@@ -1,0 +1,55 @@
+﻿@model WebApplication3.Models.UserRegister
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "Register";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="~/css/reg/step2.css" />
+</head>
+<form method="post">
+    <div class="main">
+        <div class="reg">
+            <div class="leftSide">
+                <p id="symb">
+                    <img src="/images/symv.png" alt="Symbol" width="70" />
+                </p>
+                <h1 id="pls"> Пожалуйста проийдтие<br /> регистрацию</h1>
+                <h2 id="pls1">Введите своё имя и фамилию</h2>
+            </div>
+            <div class="rightSide">
+                <div>
+                    <div class="pol">
+                        <div>
+                            <input type="text" asp-for="FirstName" class="wind" required />
+                            <div class="Enter">Введите Имя</div>
+                            <span asp-validation-for="FirstName" />
+                        </div>
+
+
+
+                        <div>
+                            <input type="text" asp-for="LastName" class="wind" required />
+                            <div class="Enter">Введите Фамилию</div>
+                            <span asp-validation-for="LastName" />
+                        </div>
+                    </div>                                                                                   
+                </div>
+               <div>
+                    <p>
+                        <input type="submit" value="Отправить" class="button" />
+                    </p>
+               </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+</form>
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script>

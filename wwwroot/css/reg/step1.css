@@ -1,0 +1,162 @@
+﻿.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: ivory;
+    width: 1000px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.rightSide {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: -110px;
+    width: 400px;
+}
+
+.wind {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    font-size: 1em;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 2px solid #000000;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+.field-validation-error {
+    position: absolute;
+    color: red;
+    /*    background-color: aqua;*/
+    top: 45px;
+    transition: 0.2s ease;
+}
+.field-validation-valid{
+    position: absolute;
+    color: red;
+/*    background-color: red;*/
+    top: 45px;
+}
+
+input.wind:focus,
+input.wind:valid {
+    padding-left: 10px;
+    margin: 0 20px;
+    color: #3488bf;
+    font-size: 1em;
+    border: 2px solid #3488bf;
+    outline: none;
+}
+/*input.wind:focus,
+input.wind:invalid {
+    padding-left: 10px;
+    margin: 0 20px;
+    color: red;
+    font-size: 1em;
+    border: 2px solid red;
+    outline: none;
+}*/
+
+.Enter {
+    color: black;
+    position: absolute;
+    font-size: 1.2em;
+    top: 0px;
+    left: 12px; 
+    /* padding: 0px;*/
+    margin: 0 10px;
+    width: 36%;
+    height: -34px;
+    transition: 0.2s ease;
+    pointer-events: none;
+    background-color: ivory;
+}
+
+input.wind:focus + .Enter,
+input.wind:valid + .Enter { 
+    /* border: 4px solid red;*/
+    color: red;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(5px, -26px) scale(0.96);
+    z-index: 1111;
+}
+input.wind.input-validation-error:focus{
+    padding-left: 10px;
+    margin: 0 20px;
+    color: red;
+    font-size: 1em;
+    border: 2px solid red;
+    outline: none;
+}
+input.wind.input-validation-error {
+    color: red;
+    border: 2px solid red;
+}
+input.wind.input-validation-error + .Enter{
+    color: red;
+}
+input.wind.input-validation-error:focus ~ .field-validation-error{
+    
+    margin: 0 20px;
+    color: red;
+    font-size: 1em;
+    
+    outline: none
+    
+}
+/*input.wind.input-validation-error ~ .field-validation-error{
+    padding-left: 10px;
+    margin: 0 20px;
+    color: green;
+    font-size: 1em;
+    border: 2px solid red;
+    outline: none
+    
+}*/
+.button {
+    position: absolute;
+    top: 120px;
+    width: 50%;
+    left: 208px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: #0fbbfc;
+    border: 2px solid transparent;
+}
+
+.leftSide {
+    display: inline-block;
+    position: relative;
+    left: 10px; 
+    /* background-color: red;*/
+}
+
+#symb {
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+#pls {
+    position: relative;
+    top: -20px;
+}
+
+#pls1 {
+    position: relative;
+    top: -10px;
+    font-size: 20px;
+}

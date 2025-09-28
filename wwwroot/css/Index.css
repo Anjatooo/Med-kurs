@@ -1,0 +1,40 @@
+﻿.main {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 1000px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.ll {
+    font-size: 30px;
+/*    position: absolute;*/
+    text-align: center;
+    
+}
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    border: 2px solid #000000;
+    line-height: 40px;
+    border: 2px solid black;
+    width: 50%;
+    background: transparent;
+    font-size: 1.2em;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000000;
+    
+}
+
+   
