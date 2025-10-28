@@ -1,337 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#\\WebApplication3\\",
+  "WorkspaceRootPath": "D:\\C#\\\u041A\u0443\u0440\u0441\u0430\u0447\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\\u043A\u0443\u0440\u0441\u0430\u0447\\controllers\\\u0430\u0434\u043C\u0438\u043D\\\u0434\u043E\u0431. \u0432\u0440\u0430\u0447\u0435\u0439\\changespecialitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:controllers\\\u0430\u0434\u043C\u0438\u043D\\\u0434\u043E\u0431. \u0432\u0440\u0430\u0447\u0435\u0439\\changespecialitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\controllers\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:controllers\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\wwwroot\\css\\reg\\step1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\reg\\step1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\register\\step1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\register\\step1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\wwwroot\\css\\reg\\step4.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\reg\\step4.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\wwwroot\\css\\reg\\step2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\reg\\step2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\register\\step3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\register\\step3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\register\\step2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\register\\step2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\register\\step4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\register\\step4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\models\\doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:models\\doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\red.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:red.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\wwwroot\\css\\reg\\step3.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:wwwroot\\css\\reg\\step3.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\webapplication3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|d:\\c#\\\u043A\u0443\u0440\u0441\u0430\u0447\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470C05F4-B464-41BE-A12B-F1247FE5ED53}|WebApplication3.csproj|solutionrelative:services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 180,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "register.css",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\wwwroot\\css\\register.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\register.css",
-              "ToolTip": "D:\\C#\\WebApplication3\\wwwroot\\css\\register.css",
-              "RelativeToolTip": "wwwroot\\css\\register.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-13T16:03:10.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.css",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\wwwroot\\css\\Index.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Index.css",
-              "ToolTip": "D:\\C#\\WebApplication3\\wwwroot\\css\\Index.css",
-              "RelativeToolTip": "wwwroot\\css\\Index.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-13T16:01:37.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Home\\Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Search.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Home\\Search.cshtml",
-              "RelativeToolTip": "Views\\Home\\Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T15:40:39.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-13T15:01:39.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAnwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T14:38:01.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Red.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Red.cs",
-              "RelativeDocumentMoniker": "Red.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Red.cs",
-              "RelativeToolTip": "Red.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T13:56:44.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Models\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationContext.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Models\\ApplicationContext.cs",
-              "RelativeToolTip": "Models\\ApplicationContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T17:31:54.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Doc.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Models\\Doc.cs",
-              "RelativeDocumentMoniker": "Models\\Doc.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Models\\Doc.cs",
-              "RelativeToolTip": "Models\\Doc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T17:26:09.685Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCoAAABAAAAAAAAAAA==",
+              "Title": "ChangeSpecialityController.cs",
+              "DocumentMoniker": "D:\\C#\\\u041A\u0443\u0440\u0441\u0430\u0447\\Controllers\\\u0410\u0434\u043C\u0438\u043D\\\u0414\u043E\u0431. \u0432\u0440\u0430\u0447\u0435\u0439\\ChangeSpecialityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\\u0410\u0434\u043C\u0438\u043D\\\u0414\u043E\u0431. \u0432\u0440\u0430\u0447\u0435\u0439\\ChangeSpecialityController.cs",
+              "ToolTip": "D:\\C#\\\u041A\u0443\u0440\u0441\u0430\u0447\\Controllers\\\u0410\u0434\u043C\u0438\u043D\\\u0414\u043E\u0431. \u0432\u0440\u0430\u0447\u0435\u0439\\ChangeSpecialityController.cs",
+              "RelativeToolTip": "Controllers\\\u0410\u0434\u043C\u0438\u043D\\\u0414\u043E\u0431. \u0432\u0440\u0430\u0447\u0435\u0439\\ChangeSpecialityController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T17:11:14.943Z",
+              "WhenOpened": "2025-10-27T14:28:15.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "step4.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Register\\step4.cshtml",
-              "RelativeDocumentMoniker": "Views\\Register\\step4.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Register\\step4.cshtml",
-              "RelativeToolTip": "Views\\Register\\step4.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T18:35:30.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "step3.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Register\\step3.cshtml",
-              "RelativeDocumentMoniker": "Views\\Register\\step3.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Register\\step3.cshtml",
-              "RelativeToolTip": "Views\\Register\\step3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T18:23:40.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "step4.css",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step4.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\reg\\step4.css",
-              "ToolTip": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step4.css",
-              "RelativeToolTip": "wwwroot\\css\\reg\\step4.css",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAYwIYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-05T18:23:33.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "step3.css",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step3.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\reg\\step3.css",
-              "ToolTip": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step3.css",
-              "RelativeToolTip": "wwwroot\\css\\reg\\step3.css",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-05T18:23:13.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "step2.css",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step2.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\reg\\step2.css",
-              "ToolTip": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step2.css",
-              "RelativeToolTip": "wwwroot\\css\\reg\\step2.css",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAYwIsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-04T08:24:42.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "step2.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Register\\step2.cshtml",
-              "RelativeDocumentMoniker": "Views\\Register\\step2.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Register\\step2.cshtml",
-              "RelativeToolTip": "Views\\Register\\step2.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-04T08:18:44.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T07:18:32.595Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Controllers\\Register.cs",
-              "RelativeDocumentMoniker": "Controllers\\Register.cs",
-              "ToolTip": "D:\\C#\\WebApplication3\\Controllers\\Register.cs",
-              "RelativeToolTip": "Controllers\\Register.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAMAAAAAAAAAA==",
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\C#\\\u041A\u0443\u0440\u0441\u0430\u0447\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "Services\\Service.cs",
+              "ToolTip": "D:\\C#\\\u041A\u0443\u0440\u0441\u0430\u0447\\Services\\Service.cs",
+              "RelativeToolTip": "Services\\Service.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:53:27.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T12:53:39.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "step1.css",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step1.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\reg\\step1.css",
-              "ToolTip": "D:\\C#\\WebApplication3\\wwwroot\\css\\reg\\step1.css",
-              "RelativeToolTip": "wwwroot\\css\\reg\\step1.css",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-26T20:34:06.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "step1.cshtml",
-              "DocumentMoniker": "D:\\C#\\WebApplication3\\Views\\Register\\step1.cshtml",
-              "RelativeDocumentMoniker": "Views\\Register\\step1.cshtml",
-              "ToolTip": "D:\\C#\\WebApplication3\\Views\\Register\\step1.cshtml",
-              "RelativeToolTip": "Views\\Register\\step1.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T19:36:34.534Z"
+              "WhenOpened": "2025-10-27T13:29:11.718Z",
+              "EditorCaption": ""
             }
           ]
         }

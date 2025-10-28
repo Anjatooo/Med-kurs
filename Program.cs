@@ -1,15 +1,22 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplication3;
 using WebApplication3.Controllers;
-using WebApplication3.Models;
+using WebApplication3.Models.JWT;
+using WebApplication3.Models.Users;
 using WebApplication3.Services;
+using WebApplication3.Services.BD;
+
 var builder = WebApplication.CreateBuilder(args);
 
-string connection = builder.Configuration.GetConnectionString("DefaultConnection")!; //бд
-builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection)); //бд
+builder.Services.AddDbContext<ApplicationContext>(options
+    => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>();
 
 builder.Services.AddAutoMapper(typeof(AppMappingProfile)); //АвтоМаппер
-// Add services to the container.
+
+builder.Services.AddScoped(typeof(IRepositoty<>), typeof(Repository<>));
 
 builder.Services.AddSession();
 builder.Services.AddAuthorization();
